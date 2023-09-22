@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@font-face {
+    font-family: "Norse";
+    src:
+        url("../fonts/norse-bold-webfont.woff2") format("woff2"),
+        url("../fonts/norse-bold-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+div.left-container {
+    --title-size: 120px;
+    --logo-size: calc(var(--title-size) + 30px);
+
+    width: 50%;
+
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.logo-container {
+    margin-top: 50%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: var(--logo-size);
+    padding: 16px;
+}
+
+h1 {
+    font-family: "Norse", sans-serif;
+    font-size: var(--title-size);
+    color: white;
+}
+
+img.logo {
+    height: var(--logo-size);
+}
+
+p.credits {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    font-family: 'Poppins', sans-serif;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
+
+p.credits a {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+p.credits a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
