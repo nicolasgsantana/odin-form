@@ -15,6 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 
 div.left-container {
@@ -57,14 +58,12 @@ img.logo {
 p.credits {
     background-color: rgba(0, 0, 0, 0.5);
 
-    font-family: 'Poppins', sans-serif;
     margin-top: auto;
     text-align: center;
     color: white;
 }
 
 p.credits a {
-    font-family: 'Poppins', sans-serif;
     color: white;
 }
 
