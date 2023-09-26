@@ -22,7 +22,7 @@ div.left-container {
     --title-size: 120px;
     --logo-size: calc(var(--title-size) + 30px);
 
-    width: 50%;
+    width: 40%;
 
     background-image: url(../img/background.jpg);
     background-position: center;
@@ -33,7 +33,7 @@ div.left-container {
 }
 
 div.logo-container {
-    margin-top: 50%;
+    margin-top: 20%;
 
     background-color: rgba(0, 0, 0, 0.5);
 
@@ -100,4 +100,24 @@ p.login {
 
 .login a:hover {
     text-decoration: underline;
+}
+
+.input-container {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.input-container p {
+    width: auto;
+}
+
+input {
+    width: 30ch;
+    height: 20px;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 14px;
 }
