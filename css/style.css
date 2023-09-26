@@ -71,3 +71,33 @@ p.credits a:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+div.right-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 32px;
+}
+
+.right-container p {
+    font-size: 18px;
+    font-weight: bold;
+    width: 50ch;
+}
+
+p.login {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.login a {
+    color: #E44F97;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
