@@ -121,3 +121,24 @@ label {
     text-transform: uppercase;
     font-size: 14px;
 }
+
+button[type="submit"] {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+
+    background-color: hsl(331, 73%, 60%);
+    padding: 0.75rem 2rem;
+    border: 0;
+    border-radius: 8px;
+
+    box-shadow: 5px 5px 15px gray;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(331, 73%, 65%);
+}
+
+button[type="submit"]:active {
+    background-color: hsl(331, 73%, 55%);
+}
