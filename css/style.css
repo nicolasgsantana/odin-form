@@ -22,7 +22,7 @@ div.left-container {
     --title-size: 120px;
     --logo-size: calc(var(--title-size) + 30px);
 
-    width: 40%;
+    flex-grow: 1;
 
     background-image: url(../img/background.jpg);
     background-position: center;
@@ -78,6 +78,8 @@ div.right-container {
     flex-direction: column;
     justify-content: center;
 
+    flex-grow: 2;
+
     padding: 32px;
     background-color: lightgrey;
 }
@@ -105,7 +107,7 @@ p.login {
 
 .input-container {
     display: flex;
-    justify-content: space-between;
+    gap: 3rem;
 }
 
 .input-container p {
@@ -118,7 +120,7 @@ input {
     width: 30ch;
     height: 1.5rem;
 
-    border: 1px black solid;
+    border: 2px black solid;
     border-radius: 4px;
 }
 
