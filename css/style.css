@@ -104,7 +104,6 @@ p.login {
 
 .input-container {
     display: flex;
-
     justify-content: space-between;
 }
 
@@ -113,8 +112,21 @@ p.login {
 }
 
 input {
+    box-sizing: border-box;
+
     width: 30ch;
-    height: 20px;
+    height: 1.5rem;
+
+    border: 1px black solid;
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 2px blue solid;
+}
+
+input:invalid {
+    border: 2px red solid;
 }
 
 label {
