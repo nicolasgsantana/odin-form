@@ -121,12 +121,14 @@ input {
     border-radius: 4px;
 }
 
-input:focus {
-    border: 2px blue solid;
+input:invalid {
+    border: 2px #ff3535 solid;
 }
 
-input:invalid:required {
-    border: 2px #ff3535 solid;
+input:focus, input:active {
+    outline: none !important;
+    border: 2px solid #4949ff;
+    box-shadow: 5px 5px 10px gray;
 }
 
 label {
