@@ -79,6 +79,7 @@ div.right-container {
     justify-content: center;
 
     padding: 32px;
+    background-color: lightgrey;
 }
 
 .right-container p {
