@@ -81,7 +81,7 @@ div.right-container {
     flex-grow: 2;
 
     padding: 32px;
-    background-color: lightgrey;
+    background-color: rgb(240, 240, 240);
 }
 
 .right-container p {
@@ -120,17 +120,17 @@ input {
     width: 30ch;
     height: 1.5rem;
 
-    border: 2px black solid;
+    border: 1px black solid;
     border-radius: 4px;
 }
 
-input:invalid {
-    border: 2px #ff3535 solid;
+.error:invalid {
+    border-color: #ff3535;
 }
 
-input:focus, input:active {
+input:focus, input:active, .error:focus, .error:active{
     outline: none !important;
-    border: 2px solid #4949ff;
+    border-color: #4949ff;
     box-shadow: 5px 5px 10px gray;
 }
 
